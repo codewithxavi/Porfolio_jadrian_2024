@@ -2,46 +2,25 @@ import { Testimonial } from '@/types/testimonial';
 
 const testimonials: Testimonial[] = [
   {
-    name: 'Jane Doe',
+    name: 'Marc Esteve Garcia',
     image: '/images/person/1.jpg',
-    username: 'janedoe',
+    username: 'mesteve',
     testimonial:
-      'Collaborating with John on this project was a fantastic experience. His dedication and expertise were invaluable.'
+      'En resumen, recomiendo encarecidamente a Xavi por su excelencia en el desarrollo web y su compromiso con el aprendizaje continuo. Estoy seguro de que será un activo valioso para cualquier equipo y estoy emocionado de ver cómo continúa prosperando en su carrera.'
   },
   {
-    name: 'Emily Smith',
+    name: 'Victor Bretones Vera',
     image: '/images/person/2.jpg',
-    username: 'emilysmith',
+    username: 'vbretones',
     testimonial:
-      "John's work on the project was outstanding. His problem-solving skills and attention to detail greatly contributed to our success."
+      'He tenido el placer de realizar proyectos junto a Javier y puedo afirmar que es un excelente profesional. Trabaja a la perfección en equipo y está muy comprometido con su trabajo.'
   },
   {
-    name: 'Michael Johnson',
+    name: 'Alejandro Minotti',
     image: '/images/person/3.jpg',
-    username: 'michaeljohnson',
+    username: 'aminotti',
     testimonial:
-      "John's innovative approach and technical proficiency were key to the success of our project. Highly recommend working with him."
-  },
-  {
-    name: 'Sarah Williams',
-    image: '/images/person/4.jpg',
-    username: 'sarahwilliams',
-    testimonial:
-      'John has an exceptional ability to communicate complex ideas clearly. His contributions were crucial to the project’s success.'
-  },
-  {
-    name: 'David Brown',
-    image: '/images/person/5.jpg',
-    username: 'davidbrown',
-    testimonial:
-      'Working with John was a pleasure. His professionalism and technical skills are top-notch. Highly recommend him for any project.'
-  },
-  {
-    name: 'Jessica Taylor',
-    image: '/images/person/6.jpg',
-    username: 'jessicataylor',
-    testimonial:
-      "John's creativity and problem-solving abilities were impressive. He played a key role in the project's success."
+      'Javier es un excelente trabajador. Tiene una gran capacidad para trabajar en equipo sobre proyectos informáticos y un excelente trato interpersonal.'
   }
 ];
 

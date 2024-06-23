@@ -3,4 +3,6 @@ export interface Project {
   slug: string;
   description?: string;
   thumbnail?: string;
+  liveurl?: string;
+  githuburl?: string;
 }

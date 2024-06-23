@@ -3,8 +3,10 @@ import { metadata as meta } from '@/app/config';
 
 const hero: Hero = {
   name: meta.author.name,
+  firstName: meta.author.firstName,
+  lastName: meta.author.lastName,
   label: meta.author.label,
-  description: 'I design and build beautiful websites. Welcome to my portfolio.'
+  description: 'Designing and building beautiful websites👋🏻'
 };
 
 export { hero };

@@ -21,12 +21,12 @@ const skills: Skill[] = [
     name: 'Database Management',
     description: 'Storing and organizing data efficiently.',
     Icon: DatabaseIcon
-  },
-  {
-    name: 'Mobile Development',
-    description: 'Crafting apps for smartphones and tablets.',
-    Icon: SmartphoneIcon
   }
+  // {
+  //   name: 'Mobile Development',
+  //   description: 'Crafting apps for smartphones and tablets.',
+  //   Icon: SmartphoneIcon
+  // }
 ];
 
 export { skills };

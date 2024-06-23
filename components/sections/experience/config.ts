@@ -2,32 +2,31 @@ import { Experience } from '@/types/experience';
 
 const experiences: Experience[] = [
   {
-    name: 'Web Development',
-    duration: '2022 - Present',
-    company: 'Acme Inc',
-    description:
-      'Building beautiful and functional websites using modern web technologies, focusing on performance, accessibility, and SEO-friendly design.'
+    name: 'NOMINAS DELEGACIONES Y SUBDELEG. GOB. ADMON. PERIFERICA',
+    duration: '17 jun 2024 	Present',
+    company: 'GOBIERNO',
+    description: 'Managing printers, software, webs, apps and more'
   },
   {
-    name: 'UI/UX Design',
-    duration: '2021 - 2022',
-    company: 'Creative Designs Ltd',
+    name: 'CONSEJO SUPERIOR DE INVESTIGACIONES CIENTÍFICAS',
+    duration: '17 ene 2024 	16 jun 2024',
+    company: 'IBE/CMIMA/ICM',
     description:
-      'Creating delightful and intuitive user experiences, specializing in responsive design and user-centric methodologies.'
+      'Dedicated to enhancing user satisfaction through intuitive and responsive design, employing user-centric methodologies.'
   },
   {
-    name: 'Database Management',
-    duration: '2020 - 2022',
-    company: 'DataTech Solutions',
+    name: 'MERCAGRANOLLERS,S.L.',
+    duration: '02 may 2022 	01 jul 2022',
+    company: 'Mercagranollers S.L',
     description:
-      'Storing and organizing data efficiently, ensuring data integrity, and optimizing database queries for high traffic applications.'
+      ' This position involves providing IT support, managing printers, configuring software, developing webs, and ensuring smooth technical operations within the company.'
   },
   {
-    name: 'Mobile Development',
-    duration: '2019 - 2021',
-    company: 'Innovative Apps Inc',
+    name: 'BENJAMIN FRANKLIN FOUNDATION',
+    duration: '03 abr 2017 - 14 sept 2017',
+    company: 'Benjamin Franklin Foundation',
     description:
-      'Crafting engaging and scalable apps for smartphones and tablets, focusing on cross-platform development and native performance.'
+      'Benjamin Franklin Foundation: Handling printers, software, and all that tech stuff'
   }
 ];
 

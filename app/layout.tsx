@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { Instrument_Sans } from 'next/font/google';
+// import { Instrument_Sans } from 'next/font/google';
+
 import '@/styles/globals.css';
 
 import { ThemeProvider } from '@/components/theme-provider';
@@ -7,7 +8,24 @@ import { Toaster } from '@/components/ui/toaster';
 
 import { metadata as meta } from './config';
 
-const inter = Instrument_Sans({ subsets: ['latin'] });
+// const inter = Instrument_Sans({ subsets: ['latin'] });
+
+import localFont from 'next/font/local';
+const satoshi = localFont({
+  src: [
+    {
+      path: './fonts/Satoshi-Variable.ttf',
+      weight: '400 500 600 700 800 900',
+      style: 'normal'
+    },
+    {
+      path: './fonts/Satoshi-VariableItalic.ttf',
+      weight: '400 500 600 700 800 900',
+      style: 'italic'
+    }
+  ],
+  display: 'swap'
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(meta.site.url),
@@ -97,7 +115,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={satoshi.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

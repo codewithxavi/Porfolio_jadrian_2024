@@ -2,6 +2,8 @@ export interface Metadata {
   author: {
     name: string;
     username: string;
+    firstName: string;
+    lastName: string;
     label: string;
   };
   site: {

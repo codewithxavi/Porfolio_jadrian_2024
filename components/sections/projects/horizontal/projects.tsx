@@ -2,23 +2,17 @@ import React from 'react';
 import ProjectCard from './project-card';
 
 import Reveal from '@/components/reveal';
-
 import { projects } from '@/components/sections/projects/config';
 import MotionWrap from '@/components/motion-wrap';
 
 function Projects() {
   return (
-    <MotionWrap className="w-full py-24 lg:py-32" id="projects">
+    <MotionWrap className="mx-auto py-16  lg:w-9/12" id="projects">
       <div className="space-y-4 px-4 md:space-y-6 md:px-6 lg:space-y-10">
-        <div className="flex w-full flex-col items-center justify-center text-center lg:flex-row lg:justify-between lg:text-left">
-          <div className="flex flex-col items-center lg:items-start">
+        <div className="flex w-full flex-col justify-center lg:flex-row lg:justify-between lg:text-left">
+          <div className="flex flex-col items-center">
             <Reveal>
-              <h2 className="text-4xl font-bold leading-tight tracking-tighter sm:text-5xl md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight">
-                My
-              </h2>
-            </Reveal>
-            <Reveal>
-              <h2 className="-mt-2 text-4xl font-bold leading-tight tracking-tighter sm:text-5xl md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight">
+              <h2 className="text-4xl font-bold  sm:text-5xl md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight">
                 Projects
               </h2>
             </Reveal>
@@ -36,6 +30,8 @@ function Projects() {
               name={project.name}
               description={project.description}
               thumbnail={project.thumbnail}
+              liveurl={project.liveurl}
+              githuburl={project.githuburl}
             />
           ))}
         </div>

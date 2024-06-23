@@ -1,4 +1,27 @@
 @tailwind base;
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--twitch-secondary) var(--twitch-gray);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--twitch-gray);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--twitch-secondary);
+  border-radius: 9999px;
+  border: 2px solid var(--twitch-gray);
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -24,6 +47,9 @@
     --input: 240 5.9% 90%;
     --ring: 240 5.9% 10%;
     --radius: 0.75rem;
+    --twitch-primary: #9146ff;
+    --twitch-secondary: #6441a5;
+    --twitch-gray: #f0f0f0;
   }
 
   .dark {

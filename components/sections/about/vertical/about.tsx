@@ -16,10 +16,9 @@ function About() {
             </h2>
             <div className="space-y-4">
               <p className="max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I am a passionate and creative Web Developer with a love for
-                beautiful and functional websites. I have experience working
-                with a variety of web technologies and frameworks and I am
-                always eager to learn new things and take on new challenges.
+                Skilled web developer crafting sleek, effective websites. Versed
+                in diverse technologies and frameworks, hungry for new skills
+                and challenges.
               </p>
               <Button asChild>
                 <Link href="resume.pdf" target="_blank">

@@ -46,7 +46,7 @@ function Contact() {
   }, [state]);
 
   return (
-    <MotionWrap className="w-full py-24 lg:py-32" id="contact">
+    <MotionWrap className="mx-auto w-9/12 py-24 lg:py-32" id="contact">
       {/* TODO: Redesign for horizontal */}
       <div className=" px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2">

@@ -16,19 +16,14 @@ import { testimonials } from '@/components/sections/testimonials/config';
 
 function Testimonials() {
   return (
-    <MotionWrap className="w-full py-24 lg:py-32" id="testimonials">
+    <MotionWrap className="mx-auto py-16  lg:w-9/12" id="testimonials">
       {/* TODO: Redesign for horizontal */}
       <div className="px-4 md:px-6">
         <div className="grid gap-10">
-          <div className="flex w-full flex-col items-center justify-center text-center lg:flex-row lg:justify-between lg:text-left">
-            <div className="flex flex-col items-center lg:items-start">
+          <div className="flex w-full flex-col justify-center lg:flex-row lg:justify-between lg:text-left">
+            <div className="flex flex-col lg:items-start">
               <Reveal>
-                <h2 className="text-4xl font-bold leading-tight tracking-tighter sm:text-5xl md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight">
-                  My
-                </h2>
-              </Reveal>
-              <Reveal>
-                <h2 className="-mt-2 text-4xl font-bold leading-tight tracking-tighter sm:text-5xl md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight">
+                <h2 className="-mt-2 text-4xl font-bold leading-tight tracking-tighter sm:text-5xl md:text-5xl  lg:text-6xl">
                   Testimonials
                 </h2>
               </Reveal>

@@ -13,7 +13,7 @@ import { testimonials } from '@/components/sections/testimonials/config';
 
 function Testimonials() {
   return (
-    <MotionWrap className="w-full py-24 lg:py-32" id="testimonials">
+    <MotionWrap className="mx-auto w-9/12 py-24 lg:py-32" id="testimonials">
       <div className="px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="space-y-4">
