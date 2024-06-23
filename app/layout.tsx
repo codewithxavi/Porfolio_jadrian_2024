@@ -8,6 +8,8 @@ import { Toaster } from '@/components/ui/toaster';
 import { metadata as meta } from './config';
 
 import localFont from 'next/font/local';
+
+import { SpeedInsights } from '@vercel/speed-insights/next';
 const satoshi = localFont({
   src: [
     {
@@ -120,6 +122,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <SpeedInsights />
           <Toaster />
         </ThemeProvider>
       </body>
