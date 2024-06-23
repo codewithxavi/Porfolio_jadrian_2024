@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     // creatorId: 'id',
     images: [
       {
-        url: '/images/og.png',
+        url: '/images/mariale_javi.jpg',
         width: 1200,
         height: 630,
         alt: meta.site.description
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: meta.site.title,
     siteName: meta.site.title,
     description: meta.site.description,
-    locale: 'en-US',
+    locale: 'es-ES',
     images: [
       {
         url: meta.site.ogImage,
