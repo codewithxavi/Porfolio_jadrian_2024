@@ -9,8 +9,9 @@ const metadata: Metadata = {
     label: 'Web Developer & IT Support'
   },
   site: {
-    title: 'J.A - Portfolio Website',
-    description: 'Portfolio of web & UI designer/developer Javier Adrián.',
+    title: 'Javier.A - Porfolio Web',
+    description:
+      'Explora el portafolio de Javier Adrián, diseñador y desarrollador especializado en web y UI. Descubre mi trabajo, que combina creatividad y tecnología para ofrecer soluciones digitales innovadoras y estéticamente impactantes.',
     ogImage: 'opengraph-image.png',
     url: 'https://javiadrian.com',
     keywords: [
@@ -20,7 +21,7 @@ const metadata: Metadata = {
       'portfolio',
       'Javier Adrián'
     ],
-    language: 'en',
+    language: 'es',
     charset: 'UTF-8'
   }
 };
