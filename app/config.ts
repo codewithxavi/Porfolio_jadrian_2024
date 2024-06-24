@@ -11,8 +11,8 @@ const metadata: Metadata = {
   site: {
     title: 'J.A - Portfolio Website',
     description: 'Portfolio of web & UI designer/developer Javier Adrián.',
-    ogImage: '/images/xyz_og.png',
-    url: 'https://www.youtube.com/@codewithxavi',
+    ogImage: 'opengraph-image.png',
+    url: 'https://javiadrian.com',
     keywords: [
       'web design',
       'UI design',
