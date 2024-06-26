@@ -55,7 +55,11 @@ function Contact() {
             </p>
             <p className="text-muted-foreground">
               Email:{' '}
-              <a className="hover:underline" href={`mailto:${contact.email}`}>
+              <a
+                className="hover:underline"
+                href={`mailto:${contact.email}`}
+                title="Email de Javier Adrian"
+              >
                 {contact.email}
               </a>
             </p>
@@ -73,7 +77,11 @@ function Contact() {
               )}
               {contact.socials?.twitter && (
                 <Button variant="outline" size="icon" asChild>
-                  <a target="_blank" href={contact.socials.twitter}>
+                  <a
+                    target="_blank"
+                    href={contact.socials.twitter}
+                    title="Twitter de Javier Adrian"
+                  >
                     <TwitterIcon className="h-4 w-4" />{' '}
                     {/* good 'ol twitter icon */}
                   </a>
@@ -84,7 +92,7 @@ function Contact() {
                   <a
                     target="_blank"
                     href={contact.socials.github}
-                    title="Github"
+                    title="Github de Javier Adrian"
                   >
                     <GithubIcon className="h-4 w-4" />
                   </a>
@@ -95,7 +103,7 @@ function Contact() {
                   <a
                     target="_blank"
                     href={contact.socials.linkedin}
-                    title="Linkedin"
+                    title="Linkedin de Javier Adrian"
                   >
                     <LinkedinIcon className="h-4 w-4" />
                   </a>
